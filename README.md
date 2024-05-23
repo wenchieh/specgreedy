@@ -6,7 +6,7 @@ based on the graph spectral properties and a greedy peeling approach.
 - _Theory & Correspondences_: the unified formulation, GenDS, subsumes many real problems from different applications; 
                             and its optimization is guaranteed by the spectral theory.
 - _Scalable_: SpecGreedy runs linearly with the graph size.
-- _Effectiveness_: The performance (solution-quality and speedy) of SpecGreedy is verified on **40** real world networks; 
+- _Effectiveness_: The performance (solution-quality and speedy) of SpecGreedy is verified on **40** real-world networks; 
                  and it can find some interesting patterns in real applications, 
                  like the sudden bursts in research co-authorship relationships    
 
@@ -16,7 +16,7 @@ based on the graph spectral properties and a greedy peeling approach.
 Datasets
 ========================
 
-The datasets used are available online, they are from some popular network repositories, including 
+The datasets used are available online; they are from some popular network repositories, including 
 [Stanford's SNAP](http://snap.stanford.edu/data), 
 [AUS's Social Computing Data Repository](http://socialcomputing.asu.edu/), 
 [Network Repository](http://networkrepository.com/),
@@ -29,7 +29,7 @@ Environment
 =======================
 Python 3.6 is supported in the current version.
 
-To install required libraries, please type
+To install the required libraries, please type
 ```bash
 pip install -r requirements
 ```
